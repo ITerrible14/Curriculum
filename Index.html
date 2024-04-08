@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name ="viewport"  content="width=device-width, initial-scale=1.0">
+      <title>Divisones Sem&aacute;ticas</title>
+      <link rel="stylesheet" type="text/css" href="css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+      
+
+</head>
+<body>
+    <div id="agrupar">
+
+        <header id="cabecera">
+            <h1>CURRÍCULUM</h1>
+        </header>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#prin">principal</a></li>
+                <li><a href="#fot">fotos</a></li>
+                <li><a href="#vid">videos</a></li>
+                <li><a href="#cont">contacto</a></li>
+                <l
+            </ul>
+        </nav>
+
+        <section id="seccion">
+            <article>
+                <!--Primer articulo-->
+                <header>
+                    <hgroup>
+                        <h1>CV de Iv&aacute;n de Jes&uacute;s Hern&aacute;ndez L&oacute;pez</h1>
+                </header>
+
+                <h2>Datos personales</h2>
+                <ul>
+                    <li>Nombre completo:<strong> Hernandez Lopez Ivan de Jesus</strong></li>
+                    <li>Fecha de nacimiento:<strong> 6 de enero del 2003</strong></li>
+                    <li>Lugar de nacimiento:<strong> Rio blanco ver.</strong></li>
+                </ul>
+
+                <h2>Formacion academica</h2>
+                <ul>
+                    <li>2015-2018:<strong> Esc Sec. Vicente Guerrero</strong></li>
+                    <li>2018-2021:<strong> Conalep 252</strong></li>
+                    <li>2021-20..:<strong> Tecnologico de Orizaba</strong></li>
+                </ul>
+
+                <h2>Experiencia laboral</h2>
+                <ul>
+                    <li>2021-2022:<strong> Ayundate general</strong></li>
+                    <li>2022-2024:<strong> Mesero</strong></li>
+                </ul>
+
+                <figure>
+                    <center>
+                        <video width="50%" controls autoplay loop muted>
+                            <source src="mult/Video.mp4" type="video/mp4">
+                        </video>
+                    </center>
+                    <figcaption>
+                        <center>Presentancion</center>
+                    </figcaption>
+                </figure>
+
+
+            </article><!-- Fin Primer articulo-->
+            <article>
+                <!-- Segundo articulo-->
+                <header>
+                    <hgroup>
+                        <h1>Direccion de Universidad</h1>
+                        <h4>Instituto tecnologico de Orizaba</h4>
+                    </hgroup>
+                </header>
+                Este es la direccion de
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.7350494169373!2d-97.1015731246786!3d18.85444498230505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502aeb2d35fed%3A0xba5f3840b0862949!2sTecNM%20-%20Campus%20Orizaba!5e0!3m2!1ses-419!2smx!4v1709576966796!5m2!1ses-419!2smx"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </article> <!-- Fin Segundo articulo-->
+
+            <article>
+                <a name="fot">
+                  <a href="#he"><h1>Fotos</h1></a>
+                </a>
+                    <img src="fot/ch.jpg">
+                    <img src="fot/sec.jpg">
+                    <img src="fot/pre.jpg">
+                    <img src="fot/amix.jpg">
+            </article>
+
+            <article>
+                <a name="vid">
+                    <h1>Videos</h1>
+                    <video width="50%" controls autoplay loop>
+                        <source src="mult/XV.mp4" type="video/mp4">
+                    </video>
+            </article>
+
+            <article>
+                <a name="cont">
+                    <h1>Contactame </h1>
+
+
+
+                    <div class="contenedor">
+                        <img src="img/tel.jpeg" alt="Cel" style="width:50px;height:50px;">
+
+                        <div>
+                            <p>272 2255281</p>
+                        </div>
+                    </div>
+
+
+                    <div class="contenedor">
+                        <img src="img/facebook.jpg" alt="Correo" style="width:50px;height:50px;">
+                        <div>
+                            <p>
+                                ivandejesus0601@gmail.com
+                            </p>
+
+                        </div>
+                    </div>
+
+            </article>
+
+        </section> <!--Fin de section seccion-->
+
+
+
+        <aside id="columna">
+            <!-- aside -->
+
+
+
+            <div class="contenedor">
+                <a href="https://www.facebook.com/ivandechucho">
+                    <img src="img/facebook.jpg" alt="facebook">
+                </a>
+                <div>
+                    <p>Facebook</p>
+                </div>
+            </div>
+
+            <div class="contenedor">
+                <a href="https://www.instagram.com/_bam_b4m/">
+                    <img src="img/instagram.jpg" alt="instagram">
+                </a>
+                <div>
+                    <p>Instagram</p>
+                </div>
+            </div>
+
+        </aside> <!-- Fin aside -->
+        
+
+        <footer id="pie">
+            Derechos Reservados &copy; 2024
+            <address>
+                <a href="http://www.itorizaba.edu.mx">ITO</a>
+            </address>
+        </footer>
+
+    </div> <!--fin div agrupar-->
+
+   
+</body>
+</html>
